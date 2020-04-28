@@ -44,7 +44,7 @@ Configuration
 
 Setup a profile for each role you'd like to use in your `~/.aws/config`.
 
-```yaml
+```ini
 [profile account]
 region = eu-west-2
 
@@ -56,7 +56,7 @@ source_profile = account
 
 And then in your `~/.aws/credentials`
 
-```yaml
+```ini
 [account]
 aws_access_key_id=XXXXXX
 aws_secret_access_key=XXX
@@ -70,7 +70,7 @@ export AWS_ACCESS_KEY_ID=SXXXX
 export AWS_SECRET_ACCESS_KEY=XXXX
 export AWS_SESSION_TOKEN=XXXX
 export ASSUMED_ROLE=dev
-# run eval $(ruby Role.rb <profile>)
+# run eval $(ruby aws-sts.rb <profile>)
 ```
 
 By default the credentials last for 3600 seconds or 1 hour.
