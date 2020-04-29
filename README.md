@@ -1,4 +1,5 @@
 ![Ruby](https://github.com/lewisrobbins/aws-sts/workflows/Ruby/badge.svg?branch=master)
+[![Gem Version](https://badge.fury.io/rb/aws-sts.svg)](https://badge.fury.io/rb/aws-sts)
 
 aws-sts
 ==========
