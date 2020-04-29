@@ -1,3 +1,10 @@
+PATH
+  remote: .
+  specs:
+    aws-sts (0.1.0)
+      aws-sdk (~> 3.0)
+      aws_config
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -902,16 +909,17 @@ GEM
     aws_config (0.1.0)
     jmespath (1.4.0)
     minitest (5.14.0)
-    rake (13.0.1)
+    rake (12.3.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   aws-sdk (~> 3)
+  aws-sts!
   aws_config
-  minitest
-  rake
+  minitest (~> 5.0)
+  rake (~> 12.0)
 
 BUNDLED WITH
    2.1.4
