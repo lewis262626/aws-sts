@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
+$LOAD_PATH.unshift File.expand_path("../lib", __dir__)
 
 require 'aws/sts'
 
-tool = Aws::Sts.new
+tool = Aws::Sts::Cli.new
 tool.main

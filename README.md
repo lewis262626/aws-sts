@@ -33,11 +33,10 @@ Usage
 
 Install the tool:
 
-1. git clone `git@github.com:lewisrobbins/aws-sts.git`
+1. `gem install aws-sts`
+2. `aws-sts <role>`
 
-2. `bundle install`
 
-3. `./aws-sts.rb <role>` and follow the instructions
 
 Configuration
 ---
